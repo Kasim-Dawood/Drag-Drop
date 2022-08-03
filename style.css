@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: #4139d5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  flex-direction: column;
+  gap: 30px;
+}
+h1 {
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.inputs {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  width: 600px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+h2 {
+  font-size: 42px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+}
+
+.data input {
+  padding: 10px;
+  outline: none;
+  border: 1px solid #4139d5;
+  font-size: 24px;
+}
+.data button {
+  background-color: #4139d5;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.list .box {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  width: 400px;
+}
+
+.list .box .item {
+  background-color: #4139d5;
+  padding: 12px;
+  margin: 6px;
+  cursor: move;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+}
